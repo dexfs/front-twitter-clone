@@ -1,10 +1,10 @@
-import { GlobalStyle } from './styles/global.ts';
+import '../src/styles/tailwind.css'
+import Home from './pages/Home/Home.tsx'
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <h1>Vite + React</h1>
+      <Home />
     </>
   )
 }
